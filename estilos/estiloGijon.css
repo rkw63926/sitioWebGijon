@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,500&display=swap');
+.color10 {color: #d47066;}
+.color2 {color: #cb9043;}
+.color3 {color: #d1b858;}
+.color4 {color: #d9d986;}
+.color5 {color: #e2e2ad;}
+
+\\Colores tabla 
+.blanco{
+    color: white;
+}
+.celda{
+    background-color: #d47066;
+}
+.naranja{
+    background-color: #cb9043;
+}
+.amarillo1{
+    background-color: #d1b858; 
+}
+.amarillo2{
+    background-color: #d9d986;
+}
+.amarillo3{
+    background-color: #e2e2ad;
+}
+.amarillo4{
+    background-color: #efeed0;
+}
+.amarillo5{
+    background-color: #f7f7e7;
+}
+.amarillo6{
+    background-color: #ffff00;
+}
+.amarillo7{
+    background-color: #ffff6a;
+}
+.amarillo8{
+    background-color:#ffffa2;
+}
+.azul{
+    background-color: #006691;
+}
+.azul2{
+    background-color: #2499c7;
+}
+.azul3{
+    background-color: #40cfff;
+}
+.azul4{
+    background-color: #94e7ff;
+}
+.azul5{
+    background-color: #cdffff;
+}
+.azul6{
+    background-color: #00ffff;
+}
+.azul7{
+    background-color: #8bffff;
+}
+.azul8{
+    background-color: #c4ffff;
+}
+body{
+    background-color:lightgrey
+}
+footer{
+     text-align: right;
+}
+div a{
+    margin: 2px;
+    padding: 5px;
+}
+h1, strong{
+    text-align: center;
+    color: #d47066;
+    font-family: 'Open Sans', sans-serif;
+}
+h2, h3{
+    margin-bottom: 0%;
+    background-color: #d47066;
+    font-family: 'Open Sans', sans-serif;
+    
+}
+img.centrarDer{
+    float: right;
+}
+.img-centrar{
+    text-align: center;
+}
+.centrar{
+    text-align: center;
+}
+.derecha{
+    padding-right: 30px;
+    padding-bottom: 10px;
+    text-align: right;
+}
+a{
+    color: black;
+    text-decoration: none;
+}
+a:hover{
+    color: #d47066;
+}
+table{
+    margin: 0 auto;
+}
+.inicio{
+    border: #d47066;
+    border-style: solid;
+    color: black;
+}
+b.azul1{
+    color: #2499c7;
+}
+b.amarillo{
+    color: #ffff00;
+}
+
