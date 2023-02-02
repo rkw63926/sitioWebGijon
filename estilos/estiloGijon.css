@@ -10,7 +10,7 @@
     color: white;
 }
 .celda{
-    background-color: #d47066;
+    background-color: #DD251C;
 }
 .naranja{
     background-color: #cb9043;
@@ -64,7 +64,9 @@
     background-color: #c4ffff;
 }
 body{
-    background-color:lightgrey
+    background-color:lightgrey;
+    font-family: 'Times New Roman', serif;
+    font-size: 20px;
 }
 footer{
      text-align: right;
@@ -73,15 +75,29 @@ div a{
     margin: 2px;
     padding: 5px;
 }
-h1, strong{
+h1{
     text-align: center;
-    color: #d47066;
+    color: #DD251C;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 50px;
+}
+strong{
+    text-align: center;
+    color: #DD251C;
     font-family: 'Open Sans', sans-serif;
 }
-h2, h3{
+h2{
     margin-bottom: 0%;
-    background-color: #d47066;
+    background-color: #DD251C;
     font-family: 'Open Sans', sans-serif;
+    font-size: 35px;
+    
+}
+h3{
+    margin-bottom: 0%;
+    background-color: #DD251C;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 27px;
     
 }
 img.centrarDer{
@@ -103,13 +119,13 @@ a{
     text-decoration: none;
 }
 a:hover{
-    color: #d47066;
+    color: #DD251C;
 }
 table{
     margin: 0 auto;
 }
 .inicio{
-    border: #d47066;
+    border: #DD251C;
     border-style: solid;
     color: black;
 }
