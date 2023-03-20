@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="imagenes/favicon.png">
+    <link rel="stylesheet" href="estilos/estiloGijon.css">
+    <title>Formulario Contacto | Visita guiada</title>
+</head>
+
+<body>
+    <h2>FORMULARIO DE CONTACTO</h2>
+    <br>
+    <form action="form.php" get>
+        <fieldset>
+            <table>
+                <tr>
+                    <legend>Datos Personales</legend>
+                    <td>
+                        <label for="nombre">*Nombre completo:</label>
+                        <input type="text" required name="nombre" class="formulario">
+                    </td>
+                    <td>
+                        <label for="dni">*DNI: </label>
+                        <input type="text" name="dni" required class="formulario">
+                    </td>
+                    <td>
+                        <label for="fechanac">*Fecha de nacimiento: </label>
+                        <input type="date" name="fechanac" id="">
+                    </td>
+                </tr>
+            </table>
+        </fieldset>
+        <fieldset>
+            <legend>Datos de Contacto</legend>
+            <table>
+                <tr>
+                    <td>
+                        <label for="email">*Correo electronico: </label>
+                        <input type="email" name="email" required>
+                    </td>
+                    <td>
+                        <label for="tlf">*Telefono: </label>
+                        <input type="text" name="tlf" required>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                    <label for="cont">*Forma de contacto preferida: </label>
+                    <input type="radio" name="cont" id="">Telefono
+                    <input type="radio" name="cont" id="">Correo Electronico
+                    </td>
+                </tr>
+            </table>
+        </fieldset>
+        <fieldset>
+            <legend>Otros datos de interes</legend>
+            <label for="otro">Añada un comentario de algo que debamos saber: </label><br>
+            <textarea name="otro" id="" cols="80" rows="3"></textarea>
+        </fieldset>
+        <p>(Todos los campos marcados con * son obligatorios)</p>
+        <input type="checkbox" name="term" id="" required>* Acepto que mis datos puedan ser utilizados con fines estadisticos. <br>
+        <br>
+        <input type="submit" value="Enviar">
+    </form>
+</body>
+
+</html>

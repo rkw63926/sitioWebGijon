@@ -121,7 +121,7 @@ a{
 a:hover{
     color: #DD251C;
 }
-table{
+table.gijon{
     margin: 0 auto;
 }
 .inicio{
@@ -135,4 +135,6 @@ b.azul1{
 b.amarillo{
     color: #ffff00;
 }
-
+.formulario{
+    margin-right: 10px;
+} 
