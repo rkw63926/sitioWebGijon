@@ -10,8 +10,29 @@
 </head>
 <body>
     <?php
-    $nombre = $_REQUEST["nombre"];
+    $varNombre = $_REQUEST["nombre"];
+    $varDni = $_REQUEST["dni"];
+    $varFechanac = $_REQUEST["fechanac"];
+    $varEmail = $_REQUEST["email"];
+    $varTlf = $_REQUEST["tlf"];
+    $varCont = $_REQUEST["cont"];
+    $varOtro = $_REQUEST["otro"];
+    $varTerm = $_REQUEST["term"];
     
+
+  
+
+
+
+    print "Los datos optenidos son: <br>";
+    print "- Nombre completo: $varNombre <br>";
+    print "- DNI: $varDni <br>";
+    print "- Fecha de Nacimiento: $varFechanac <br>";
+    print "- Correo Electronico: $varEmail <br>";
+    print "- Telefono: $varTlf <br>";
+    print "- Forma de contacto preferida: $varCont <br>";
+    print "- El comentario que se ha dejado es: $varOtro <br>";
+    print "- Terminos: $varTerm <br>";
     ?>
 </body>
 </html>
